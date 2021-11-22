@@ -1,0 +1,37 @@
+h1{ 
+    font-size: 65px;
+    color: orange;
+  }
+  ul{
+    background-color: rgb(68, 189, 108);
+  }
+  .paragrafoELista{
+    background-color: rgb(255, 192, 203);
+  }
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style:oblique;
+    line-height: 2cm;
+    font-family: Ubuntu Mono Regular, sans-serif;
+}
+body{
+    font-size: 16px;
+}
+ul{
+    font-family: Ubuntu Mono Regular, sans-serif;
+    font-size: 1.5em;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#brown{
+    background-color: brown;
+}
