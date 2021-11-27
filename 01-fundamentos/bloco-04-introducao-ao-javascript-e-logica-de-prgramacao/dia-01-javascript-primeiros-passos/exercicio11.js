@@ -1,7 +1,7 @@
 let IR;
 let INSS;
 
-salárioBruto = 1176;
+salárioBruto = 3000;
 
 if (salárioBruto <= 1156.94){
     INSS = salárioBruto * 0.08;
@@ -26,10 +26,13 @@ else if (salárioBase >= 1903.99 && salárioBase <= 2826.65){
 else if (salárioBase >= 2826.66 && salárioBase <= 3751.05){
     IR = (salárioBase * 0.15) - 354.80;
 }
-else if (salárioBase >= 3751.06 && salárioBase <= 4664,68){
+else if (salárioBase >= 3751.06 && salárioBase <= 4664.68){
     IR = (salárioBase * 0.225) - 636.13;
 }
-else
+else if (salárioBase >= 4664.69)
     IR = (salárioBase * 0.275) - 869.36;
 
-    console.log("Salário Líquido = R$ " + (salárioBase.toFixed(2) - IR) + " (Impostos: INSS = R$ " + INSS.toFixed(2) + " | IR = R$ " + IR.toFixed(2) + ")");
+    console.log("Salário Bruto = R$ " + salárioBruto)
+    console.log("Salário Líquido = R$ " + (salárioBase.toFixed(2) - IR.toFixed(2)));
+    console.log("INSS = R$ " + INSS.toFixed(2));
+    console.log("IR = R$ " + IR.toFixed(2))
