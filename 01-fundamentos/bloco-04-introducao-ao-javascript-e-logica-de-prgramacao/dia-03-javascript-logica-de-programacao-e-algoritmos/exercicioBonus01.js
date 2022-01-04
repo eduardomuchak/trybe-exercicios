@@ -18,8 +18,7 @@ let resultadoColunas = '';
 
 for (let i = 0; i < n; i += 1) {
     resultadoColunas = asterisco + resultadoColunas;
-}
-
+};
 for (let i = 0; i < n; i += 1) {
     console.log(resultadoColunas);
-}
+};
