@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio do Dia 6.1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Exercicio do Dia 6.1 - Trybe</h1>
+  </header>  
+  <main class="quadroBackground">
+    <h2>Formulário de currículo:</h2>
+    <form action="" method="get">
+      <fieldset>
+        <label for="inputText-1"> Nome:
+          <input 
+            type="text" 
+            name="inputText" 
+            id="inputText-1"
+            maxlength="40"
+            required>
+        </label>
+        <br>
+        <label for="inputText-2"> Email:
+          <input 
+            type="text" 
+            name="inputEmail" 
+            id="inputText-2"
+            maxlength="50"
+            required>
+        </label>
+        <br>
+        <label for="inputText-3"> CPF:
+          <input 
+            type="text" 
+            name="inputCPF" 
+            id="inputText-3"
+            maxlength="11"
+            required>
+        </label>
+        <br>
+        <label for="inputText-4"> Endereço:
+          <textarea 
+            name="inputEndereco" 
+            id="inputText-4" cols="30" 
+            rows="10"
+            maxlength="200"
+            required>
+          </textarea>
+        </label>
+        <br>
+        <label for="inputText-5"> Cidade:
+          <input 
+            type="text" 
+            name="inputCidade" 
+            id="inputText-5"
+            maxlength="28"
+            required>
+        </label>
+        <br>
+        <label for="dropdownEstado"> Estado:
+          <select 
+            name="estado"
+            id="dropdownEstado"
+            required>
+            <option>Selecione aqui o seu estado</option>
+          </select>
+        </label>
+        <br>
+        <label for="button-1">
+          <input type="radio" id="button-1" name="complemento" required> Casa
+        </label>
+        <label for="button-2">
+          <input type="radio" id="button-2" name="complemento" required> Apartamento
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="resumo"> Resumo do currículo:
+          <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+        </label>
+        <br>
+        <label for="inputText-6"> Cargo:
+          <input 
+            type="text" 
+            name="inputCargo" 
+            id="inputText-6"
+            maxlength="40"
+            required>
+        </label>
+        <br>
+        <label for="inputText-7"> Descrição do cargo:
+          <input 
+            type="text" 
+            name="inputDescricaoCargo" 
+            id="inputText-7"
+            maxlength="500"
+            required>
+        </label>
+        <br>
+        <label for="data">Data:
+          <input 
+            type="date"
+            id="data"
+            required>
+        </label>
+      </fieldset>
+      <button class="botaoSubmit" type="submit">Enviar</button>
+      <button class="botaoLimpar" type="button">Limpar</button>
+    </form>
+    <section id="resultado"></section>
+  </main>
+  <footer>
+    <p>Desenvolvido por Eduardo Muchak</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
