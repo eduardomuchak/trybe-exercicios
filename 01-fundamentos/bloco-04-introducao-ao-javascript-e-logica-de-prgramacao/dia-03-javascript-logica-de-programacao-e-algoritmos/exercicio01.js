@@ -1,25 +1,14 @@
-/* 1- Para o primeiro exercício de hoje, faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n . Por exemplo:
+/* 1- O fatorial é a multiplicação de um número natural pelos seus antecessores, exceto o zero. Por exemplo: 
 
-n = 5
+          O fatorial é representado pelo sinal !
+          4! = 4 x 3 x 2 x 1 = 24
 
-*****
-*****
-*****
-*****
-***** */
+Com base nessas informações, crie um algoritmo que retorne o fatorial de 10.  */
 
-/*  1 - Definir coluna de asteriscos
-    2 - Definir linha de asteriscos
- */
+let fatorial = 1;
 
-let n = 3;
-let asterisco = '*';
-let resultadoColunas = '';
-
-for (let i = 0; i < n; i += 1) {
-    resultadoColunas = asterisco + resultadoColunas;
+for (let i = 4; i > 0; i -= 1) {
+  fatorial *= i;
 }
 
-for (let i = 0; i < n; i += 1) {
-    console.log(resultadoColunas);
-}
+console.log(fatorial)
