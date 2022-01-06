@@ -1,18 +1,12 @@
-/* 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
+/* 2 - Agora, desenvolva um algoritmo que é capaz de inverter uma palavra. Por exemplo, a palavra "banana" seria invertida para "ananab". Utilize a string abaixo como exemplo, depois troque por outras para verificar se seu algoritmo está funcionando corretamente.
 
-n = 5
+          let word = 'tryber'; */
 
-*
-**
-***
-****
-***** */
+let word = 'tryber';
+let reverseWord = '';
 
-let n = 9;
-let asterisco = '*'
-let colunasDinamicas = ''
-
-for (let i = 0; i <= n; i += 1) {
-    colunasDinamicas = asterisco + colunasDinamicas;
-    console.log(colunasDinamicas)
+for (let i = 0; i < word.length; i += 1) {
+  reverseWord += word[word.length - 1 - i];
 }
+
+console.log(reverseWord);

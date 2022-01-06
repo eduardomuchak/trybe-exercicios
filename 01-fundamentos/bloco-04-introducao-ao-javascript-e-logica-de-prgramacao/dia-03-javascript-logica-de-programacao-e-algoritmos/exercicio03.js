@@ -1,25 +1,25 @@
-/* 3- Agora inverta o lado do triângulo. Por exemplo:
+/* 3- Considere o array de strings abaixo: 
+          
+          let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-n = 5
+Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra. */ 
 
-    *
-   **
-  ***
- ****
-***** */
+let array = ['java', 'javascript', 'python', 'html', 'css'];
 
-let n = 9;
-let asterisco = '*'
-let colunasDinamicas = ''
-let espaços = n;
+let biggestWord = array[0];
+let smallestWord = array[0];
 
-for (let iLinhas = 0; iLinhas <= n; iLinhas += 1) {
-    for (let iColunas = 0; espaços <= iLinhas; iColunas += 1) {
-        if(espaços > n){
-            console.log(espaços + n)
-        }
-        else if(n > espaços){
-            console.log(n + espaços)
-        }
-    }
+for (let i = 0; i < array.length; i += 1) {
+  if (array[i].length > biggestWord.length) {
+    biggestWord = array[i];
+  }
 }
+
+for (let i = 0; i < array.length; i += 1) {
+  if (array[i].length < smallestWord.length) {
+    smallestWord = array[i];
+  }
+}
+
+console.log(biggestWord);
+console.log(smallestWord);
