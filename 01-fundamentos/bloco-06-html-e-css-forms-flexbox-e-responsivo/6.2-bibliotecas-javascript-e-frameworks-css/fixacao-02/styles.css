@@ -1,0 +1,44 @@
+body {
+  background: rgb(131, 51, 184);
+  font-size: 16pt;
+  line-height: 30px;
+  font-family: -apple-system, Segoe UI, Roboto, Cantarell, Open Sans, sans-serif;
+}
+
+.quadroBackground {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  padding-top: 0;
+}
+
+.form-row {
+  margin-bottom: 40px;
+}
+
+
+header {
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px 10px rgb(41, 41, 41);
+}
+
+main {
+  max-width: 980px;
+  margin: auto;
+}
+
+h2 {
+  font: bold;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-weight: 800;
+}
