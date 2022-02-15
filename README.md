@@ -80,6 +80,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 09-02: _JavaScript Assíncrono - Fetch API e async/await_
 - [X] 09-02: _Testes Assíncronos_
 - [X] 09-03: _[Projeto - Carrinho de Compras]()_
+- [X] 09-04: _[Projeto Bônus- Conexão do Bem]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
