@@ -1,0 +1,29 @@
+.container-main {
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-images {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-images > img {
+  width: 500px;
+  margin: 20px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
