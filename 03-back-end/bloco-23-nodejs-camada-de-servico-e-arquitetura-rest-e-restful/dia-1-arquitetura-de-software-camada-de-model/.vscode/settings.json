@@ -1,0 +1,15 @@
+{
+  // quando colar, formata
+    "editor.formatOnPaste": true,
+  // quando salvar, formata
+    "editor.formatOnSave": true,
+  // quando escrever, formata
+    "editor.formatOnType": true,
+  // força a indentar como eu definir
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "thunder-client.saveToWorkspace": true
+}
