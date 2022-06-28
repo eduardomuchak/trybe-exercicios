@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "6dc1840b-e3ac-4b66-b436-5d78cca5b662",
+    "colId": "373d6560-906d-4897-8c5b-618c5eb9eaea",
+    "containerId": "",
+    "name": "/products",
+    "url": "localhost:3000/products",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-27T19:09:44.853Z",
+    "modified": "2022-06-27T19:28:47.828Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2ec688db-a687-40df-9d76-73f77cb0ab5f",
+    "colId": "373d6560-906d-4897-8c5b-618c5eb9eaea",
+    "containerId": "",
+    "name": "/products",
+    "url": "localhost:3000/products",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-06-27T20:13:52.931Z",
+    "modified": "2022-06-27T20:18:07.939Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Produto\",\n    \"brand\": \"Marca\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9eac1894-b235-49af-b2bd-900509c74c5b",
+    "colId": "373d6560-906d-4897-8c5b-618c5eb9eaea",
+    "containerId": "",
+    "name": "/products/:id",
+    "url": "localhost:3000/products/2",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-06-27T20:16:48.771Z",
+    "modified": "2022-06-27T20:17:09.327Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "368c95c2-37e6-48b3-a121-6ce5cc05a9ba",
+    "colId": "373d6560-906d-4897-8c5b-618c5eb9eaea",
+    "containerId": "",
+    "name": "/products/:id",
+    "url": "localhost:3000/products/5",
+    "method": "DELETE",
+    "sortNum": 30000,
+    "created": "2022-06-27T20:17:40.394Z",
+    "modified": "2022-06-27T20:18:17.364Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "31f866fb-f1c9-4fd2-b1d1-628db87eb473",
+    "colId": "373d6560-906d-4897-8c5b-618c5eb9eaea",
+    "containerId": "",
+    "name": "/products/:id",
+    "url": "localhost:3000/products/3",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2022-06-27T20:18:23.784Z",
+    "modified": "2022-06-27T20:19:22.498Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"MacBook\",\n    \"brand\": \"Apple\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
